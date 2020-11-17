@@ -1,0 +1,24 @@
+body{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    }
+    #family
+    {
+    height: 1000px;
+    border: #e9ec39 10px solid;
+    padding: 5px;
+    border-radius: 100px;
+    }
+    #next
+    {
+    background-color: yellow;
+    font-weight: bold;
+    border: rgb(255, 0, 0) 3px solid;
+    }
+    #pre
+    {
+    background-color: yellow;
+    font-weight: bold;
+    border: rgb(255, 0, 0) 3px solid;
+    }

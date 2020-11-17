@@ -1,0 +1,45 @@
+<html>
+<head>
+<title> My Family Book </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1> My Family Book </h1>
+<img id="family" src="IMG_20201117_151552.jpg">
+<div>
+<button type="button" id="next" onclick="change1()">
+Next </button>
+<button type="button" id="pre" onclick="change2()">
+Previous </button>
+</div>
+<p id="names"> My Family Book </p>
+</body>
+</html>
+
+<script>
+    var names=[
+"Kalyan(My Dad)",
+"Sunitha(My Mom)",
+"Chakrika(Myself)",
+"Brahmmi(My Small Sister)"
+];
+var images=[
+"IMG_20201117_115050.jpg",
+"IMG_20201117_113626.jpg",
+"IMG_20201117_114154.jpg",
+"IMG_20201117_114940.jpg"
+];
+var i=0;
+function change1(){
+document.getElementById("family").src=images[i];
+document.getElementById("names").innerHTML=names[i];
+i++;
+}
+
+function change2(){
+document.getElementById("family").src=images[i];
+document.getElementById("names").innerHTML=names[i];
+i--;
+}
+</script>
+</html>
